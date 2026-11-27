@@ -1,1 +1,30 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url(base/reset.css);
+@import url(base/var.css);
+@import url(base/typography.css);
+
+@import url(layout/dots-overlay.css);
+@import url(layout/nav.css);
+@import url(layout/header.css);
+@import url(layout/floating-box.css);
+@import url(layout/main.css);
+@import url(layout/footer.css);
+
+@import url(style.css);
+
+@font-face {
+  font-family: ntype82;
+  src: url(../assets/fonts/ntype82.ttf);
+}
+@font-face {
+  font-family: ndot55;
+  src: url(../assets/fonts/ndot55-regular.ttf);
+}
+@font-face {
+  font-family: ndot57;
+  src: url(../assets/fonts/ndot57-bold.ttf);
+}
